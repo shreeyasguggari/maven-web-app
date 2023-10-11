@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1><font color='green'> Welcome to Guggari IT - Software Training Institute <font></h1>
+<h1><font color='Orange'> Welcome to Guggari IT - Software Training Institute <font></h1>
 
 <a href="https://GuggariIT.com/online-training-schedules">Click Here To See Guggari IT Training Schedules</a>
   
