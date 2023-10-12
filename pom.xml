@@ -20,7 +20,8 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
     </dependency>
-   
+
+	 
   </dependencies>
   <build>
     <finalName>01-maven-web-app</finalName>
@@ -32,4 +33,20 @@
       </plugin>
     </plugins>
   </build>
+
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>FirstPipeLine Releases Nexus Repository</name>
+	      <url>http://13.233.115.217:6363/repository/FirstPipeLine-devops/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>FirstPipeLine Snapshot Nexus Repository </name>
+	      <url>http://13.233.115.217:6363/repository/FirstPipeLine-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
